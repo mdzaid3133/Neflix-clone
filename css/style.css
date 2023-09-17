@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    color: #fff;
+    scroll-behavior: smooth;
+ 
+}
+
+#navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 11rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.logo{
+    width: 150px;
+    height: 80px;
+}
+.rightContainer{
+    display: flex;
+    align-items: center;
+}
+.lang{
+  padding: 6px 36px;  
+  border-radius: 5px;  
+  background-color: transparent;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+}
+.singBtn{
+    padding: 9px 20px;
+    border-radius: 5px;
+    background-color: #c11119;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+/*---------------------------------------------------------*/
+
+#hero{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('https://assets.nflxext.com/ffe/siteui/vlv3/dc1cf82d-97c9-409f-b7c8-6ac1718946d6/14a8fe85-b6f4-4c06-8eaf-eccf3276d557/IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 250px 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 8px solid #232323;
+}
+.centerDiv{
+   text-align: center;
+}
+#hero .heroTitle{
+  font-size: 48px;
+  margin-bottom: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+#hero .subTitle{
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  font-family :sans-serif;
+}
+#hero .heroText{
+    font-size: 1.3rem;
+    margin-bottom: 16px;
+    font-family :sans-serif;
+}
+.GetStartContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.EmailInput{
+    width: 368px;
+    height: 56px;
+    font-weight: bold;
+    padding: 0px 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #f0efef;
+    background: transparent;
+    color: #fff;
+}
+.GetBtn{
+    width: 209px;
+    height: 56px;
+    background-color: #c11119;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*******************************************************/
+#EnjoyTv,
+#watchOffline,
+#watchEverywhere,
+#createProfile,
+#FAQ-section,
+#footerSection{
+    background-color: #000000;
+    padding: 72px 11rem;
+    border-bottom: 8px solid #232323;
+    font-weight: 900;
+}
+
+.enjoyContainer{
+    display: flex;
+    align-items: center;
+}
+.enjoyContainer .left h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.enjoyContainer .left p{
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.mobileImg,
+.laptopImg,
+.childrenImg{
+    width: 579px;
+    height: 435px;
+}
+.TvImg{
+    width:579px;
+    height: 435px;
+}
+#mobileImgDiv{
+ position: relative;
+}
+.enjoyContainer .downloadBox {
+     display: flex;
+     align-items: center;
+     border: 2px solid #f0efef;
+     width: 316px;
+     height: 103px;
+     border-radius: 7px;
+     padding: 8px 12px;
+     position: absolute;
+     bottom: 30px;
+     left: 127px;
+     background-color: #000000;
+
+     
+}
+.downloadBox img{
+     width: 57px;
+}
+.dIconBox{
+    margin-left: 65px;
+    font-size: 20px;
+}
+/*-----------------------------------------------------------*/
+.FAQ-Container .FAQ-heding{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.faqBtn{
+    width: 100%;
+    height: 80px;
+    padding: 0 25px;
+    margin-top: 10px;
+    background-color: #2d2d2d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    cursor: pointer;
+}
+.faqBtn:hover{
+    background-color: #414141;
+}
+.faqBtn span{
+    font-size: 24px;
+}
+.faqBtn .Oicon{
+    font-size: 50px;
+}
+.faq-ans-container{
+    margin-top: 2px;
+    padding: 24px;
+    color: #fff;
+    background-color: #2d2d2d;
+}
+.faq-Ans{
+        font-size: 24px;
+        font-family: sans-serif;
+          font-weight: 500;
+          line-height: 1.4;
+}
+
+.readyToWatchContainer{
+    text-align: center;
+    margin-top: 60px;
+}
+.readyToWatchText{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.readyToWatchContainer .GetStartContainer{
+    margin-top: 25px;
+}
+/*-----------------------------------------------------*/
+.footerContainer p{
+    font-family: sans-serif;
+    color: #b3b3b3;
+}
+.footerFeturesCont{
+    display: flex;
+    margin-top: 20px;
+}
+.footerFeturesCont ul li{
+    margin-top: 20px;
+    list-style: none;
+    width: 283px;
+    font-family: sans-serif;
+    font-weight: 500;
+   
+    
+}
+.footerFeturesCont ul li a{
+    color: #b3b3b3;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/*------------------------------------------------*/
+/* custome Css Class */
+.row-r{
+    flex-direction: row-reverse;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+.mt{
+    margin-top: 30px;
+}
+.licolor{
+    color: #b3b3b3;
+}
+.ml{
+    margin-left: 15px;
+}
+.textBlue{
+    color: rgb(80, 80, 252);
+    font-size: 14px;
+}
+p{
+    font-weight: 500;
+}
