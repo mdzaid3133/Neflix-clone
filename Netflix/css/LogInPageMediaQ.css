@@ -1,0 +1,38 @@
+@media (max-width:739px){
+    .netflixLogo{
+        width: 166px;
+    }
+    #main-container{
+        background-image: none;
+        background-color: #000000;
+    }
+    .e-or-p-input input{
+        background-color: #E8F0F3;
+    }
+    .chekContainer{
+        margin-top: 20px;
+    }
+    .formContainer{  
+        width: 100%;
+        height: auto;
+        padding:20px;
+        background-color: unset;
+        border-bottom: 2px solid white;
+        padding-bottom: 70px;
+    
+    }
+    nav{
+       padding-left: 20px;
+    }
+     #footerSection{
+        width: 100%;
+        background-color: unset;
+    }
+    #footerSection p{
+        display: inline;
+    }
+    .footerFeturesCont div{
+        margin-top: 30px;
+    }
+    
+}

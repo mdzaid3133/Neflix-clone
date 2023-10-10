@@ -1,0 +1,138 @@
+@media (max-width:1279px) {
+
+    #EnjoyTv,
+    #watchOffline,
+    #watchEverywhere,
+    #createProfile,
+    #FAQ-section,
+    #footerSection {
+        padding: 72px 35px;
+    }
+    .footerFeturesCont div {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:979px) {
+    #hero {
+        padding: 250px 32px;
+    }
+
+    .TvImg,
+    .mobileImg,
+    .laptopImg,
+    .childrenImg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .enjoyContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .enjoyContainer .left {
+        width: 100%;
+    }
+
+    .enjoyContainer .imgDiv {
+        width: 100%;
+    }
+
+    .enjoyContainer .left h2 {
+        font-size: 32px;
+
+    }
+
+    .enjoyContainer .left p {
+        font-size: 18px;
+    }
+
+    #hero .heroTitle {
+        font-size: 32px;
+    }
+
+    #hero .subTitle {
+        font-size: 24px;
+    }
+
+    #hero .heroText {
+        font-size: 18px;
+    }
+
+    #navBar {
+        padding: 0.5rem 32px;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 88px;
+        height: 60px;
+    }
+
+    .enjoyContainer .downloadBox {
+        justify-content: space-between;
+        padding: 10px 30px;
+        width: 500px;
+        height: 120px;
+        position: relative;
+        bottom: 200px;
+        left: -5px;
+    }
+    .FAQ-Container .FAQ-heding{
+        font-size: 32px;
+        margin-bottom: 30px;
+    
+    }
+    .faqBtn span {
+        font-size: 18px;
+    }
+
+    .faqBtn .Oicon {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .GetBtn {
+        font-size: 18px;
+    }
+    .footerFeturesCont {
+    
+        flex-wrap: wrap-reverse;
+        
+    }
+
+    /* .footerFeturesCont{
+         justify-content: space-between;
+    } */
+}
+
+@media (max-width:599px) {
+    .enjoyContainer .downloadBox {
+        justify-content: space-between;
+        padding: 10px 30px;
+        width: 300px;
+        height: 100px;
+        position: relative;
+        bottom: 100px;
+        left: -5px;
+    }
+
+    .GetStartContainer {
+        flex-direction: column;
+
+    }
+
+    .GetBtn {
+        margin-top: 16px;
+    }
+
+    .footerFeturesCont div {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .EmailInput{
+        width: 100%;
+    }
+   
+}
